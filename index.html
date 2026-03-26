@@ -3,10 +3,10 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Md Parvez | ICT Specialist & Creative Designer</title>
+    <title>Md Parvez - ICT Specialist & Creative Designer Portfolio</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="ICT Support, Graphic Design, Inventory Management, VBA Automation" name="keywords">
-    <meta content="Portfolio of Md Parvez - ICT Specialist at Quantum Foundation" name="description">
+    <meta content="Professional Portfolio of Md Parvez - Quantum Foundation" name="description">
 
     <link href="img/favicon.ico" rel="icon">
 
@@ -27,6 +27,11 @@
 </head>
 
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="51">
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
     <nav class="navbar navbar-expand-lg bg-white navbar-light fixed-top shadow py-lg-0 px-4 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
         <a href="index.html" class="navbar-brand d-block d-lg-none">
             <h1 class="text-primary fw-bold m-0">Md Parvez</h1>
@@ -38,14 +43,15 @@
             <div class="navbar-nav ms-auto py-0">
                 <a href="#home" class="nav-item nav-link active">Home</a>
                 <a href="#about" class="nav-item nav-link">About</a>
-                <a href="#skill" class="nav-item nav-link">Expertise</a>
+                <a href="#skill" class="nav-item nav-link">Skills</a>
+                <a href="#service" class="nav-item nav-link">Services</a>
             </div>
             <a href="index.html" class="navbar-brand bg-secondary py-3 px-4 mx-3 d-none d-lg-block">
                 <h1 class="text-primary fw-bold m-0">Md Parvez</h1>
             </a>
             <div class="navbar-nav me-auto py-0">
-                <a href="#service" class="nav-item nav-link">Services</a>
-                <a href="#project" class="nav-item nav-link">Projects</a>
+                <a href="#project" class="nav-item nav-link">Portfolio</a>
+                <a href="#testimonial" class="nav-item nav-link">Testimonial</a>
                 <a href="#contact" class="nav-item nav-link">Contact</a>
             </div>
         </div>
@@ -54,17 +60,20 @@
         <div class="container">
             <div class="row g-5 align-items-center">
                 <div class="col-lg-6 py-6 pb-0 pt-lg-0">
-                    <h3 class="text-primary mb-3">Professional Portfolio</h3>
+                    <h3 class="text-primary mb-3">Hello, I'm</h3>
                     <h1 class="display-3 mb-3">Md Parvez</h1>
                     <h2 class="typed-text-output d-inline"></h2>
-                    <div class="typed-text d-none">ICT Specialist, Graphic Designer, Inventory Expert, VBA Developer, Technical Trainer</div>
+                    <div class="typed-text d-none">ICT Specialist, Graphic Designer, Assistant Trainer, Storekeeper, VBA Developer</div>
                     <div class="d-flex align-items-center pt-5">
-                        <a href="My Resume V 4.0 B&W.pdf" class="btn btn-primary py-3 px-4 me-5">View Resume</a>
-                        <h5 class="ms-4 mb-0 d-none d-sm-block text-muted">Integrity & Innovation</h5>
+                        <a href="My Resume V 4.0 B&W.pdf" class="btn btn-primary py-3 px-4 me-5">Download CV</a>
+                        <button type="button" class="btn-play" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-bs-target="#videoModal">
+                            <span></span>
+                        </button>
+                        <h5 class="ms-4 mb-0 d-none d-sm-block">Watch Profile</h5>
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <img class="img-fluid" src="img/profile.png" alt="Md Parvez Profile">
+                    <img class="img-fluid" src="img/profile.png" alt="">
                 </div>
             </div>
         </div>
@@ -75,32 +84,27 @@
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="d-flex align-items-center mb-5">
                         <div class="years flex-shrink-0 text-center me-4">
-                            <h1 class="display-1 mb-0">5+</h1>
+                            <h1 class="display-1 mb-0">05</h1>
                             <h5 class="mb-0">Years</h5>
                         </div>
-                        <h3 class="lh-base mb-0">The Art of Communication meets Technical Precision</h3>
+                        <h3 class="lh-base mb-0">of professional expertise in ICT, Creative Design, and Logistics</h3>
                     </div>
-                    <p class="mb-4">As an <strong>English Honors</strong> graduate, I bring a unique analytical and communicative edge to the technical world. My journey from a trainee in Dhaka to an <strong>ICT Specialist</strong> and <strong>Storekeeper</strong> at Quantum Foundation has allowed me to master the balance between creative design and structured data management.</p>
-                    <p class="mb-4">I specialize in streamlining institutional workflows—whether through <strong>VBA-powered automation</strong>, robust <strong>network troubleshooting</strong>, or high-impact <strong>graphic branding</strong>.</p>
-                    <div class="row g-2 mb-4">
-                        <div class="col-sm-6"><i class="fa fa-check text-primary me-2"></i>Honesty-Driven Service</div>
-                        <div class="col-sm-6"><i class="fa fa-check text-primary me-2"></i>Strategic Problem Solver</div>
-                        <div class="col-sm-6"><i class="fa fa-check text-primary me-2"></i>Detailed Digital Archiving</div>
-                        <div class="col-sm-6"><i class="fa fa-check text-primary me-2"></i>Hardware & WAN/LAN Expert</div>
-                    </div>
+                    <p class="mb-4">With a background in **English Literature (BA Honors)** and deep technical training in **ICT**, I bridge the gap between effective communication and technical excellence. Currently contributing to the **Quantum Foundation**, I specialize in hardware troubleshooting, inventory auditing, and workflow automation.</p>
+                    <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>Strategic ICT & Network Support</p>
+                    <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>Advanced Inventory & FIFO Management</p>
+                    <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>Creative Graphics & Video Branding</p>
+                    <a class="btn btn-primary py-3 px-5 mt-3" href="#contact">Contact Me</a>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="row g-3 mb-4">
                         <div class="col-sm-6"><img class="img-fluid rounded" src="img/about-1.jpg" alt=""></div>
                         <div class="col-sm-6"><img class="img-fluid rounded" src="img/about-2.jpg" alt=""></div>
                     </div>
-                    <div class="bg-light p-4 rounded">
-                        <h5 class="text-primary">Academic Foundation</h5>
-                        <p class="mb-0"><strong>BA in English (Honors)</strong> - National University, Bangladesh (2024)</p>
-                        <hr>
-                        <h5 class="text-primary">Technical Certification</h5>
-                        <p class="mb-0"><strong>ICT Skill Development</strong> - Dhaka (2019)</p>
+                    <div class="d-flex align-items-center mb-3">
+                        <h5 class="border-end pe-3 me-3 mb-0">Academic Status</h5>
+                        <h2 class="text-primary fw-bold mb-0">BA (Honors)</h2>
                     </div>
+                    <p class="mb-4">National University, Bangladesh - Graduated 2024. My academic background allows me to handle complex documentation and professional correspondence with ease.</p>
                 </div>
             </div>
         </div>
@@ -109,41 +113,122 @@
         <div class="container">
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <h1 class="display-5 mb-5">Technical Mastery</h1>
-                    <div class="skill mb-4">
-                        <div class="d-flex justify-content-between"><h6 class="font-weight-bold">Inventory & FIFO Management</h6><h6 class="font-weight-bold">95%</h6></div>
-                        <div class="progress"><div class="progress-bar bg-primary" style="width: 95%"></div></div>
-                    </div>
-                    <div class="skill mb-4">
-                        <div class="d-flex justify-content-between"><h6 class="font-weight-bold">Hardware Troubleshooting & Networking</h6><h6 class="font-weight-bold">92%</h6></div>
-                        <div class="progress"><div class="progress-bar bg-dark" style="width: 92%"></div></div>
-                    </div>
-                    <div class="skill mb-4">
-                        <div class="d-flex justify-content-between"><h6 class="font-weight-bold">Graphic Design (Branding & Video)</h6><h6 class="font-weight-bold">88%</h6></div>
-                        <div class="progress"><div class="progress-bar bg-warning" style="width: 88%"></div></div>
-                    </div>
-                    <div class="skill mb-4">
-                        <div class="d-flex justify-content-between"><h6 class="font-weight-bold">VBA & Workflow Automation</h6><h6 class="font-weight-bold">90%</h6></div>
-                        <div class="progress"><div class="progress-bar bg-danger" style="width: 90%"></div></div>
+                    <h1 class="display-5 mb-5">Skills & Experience</h1>
+                    <p class="mb-4">I thrive on challenging roles where I can utilize my multi-disciplinary skill set to automate systems and maintain critical hardware infrastructure.</p>
+                    <h3 class="mb-4">Technical Skills</h3>
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between"><h6 class="font-weight-bold">Hardware & Networking</h6><h6 class="font-weight-bold">95%</h6></div>
+                                <div class="progress"><div class="progress-bar bg-primary" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div></div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between"><h6 class="font-weight-bold">Inventory Auditing</h6><h6 class="font-weight-bold">90%</h6></div>
+                                <div class="progress"><div class="progress-bar bg-warning" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between"><h6 class="font-weight-bold">VBA & Excel Automation</h6><h6 class="font-weight-bold">90%</h6></div>
+                                <div class="progress"><div class="progress-bar bg-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div></div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between"><h6 class="font-weight-bold">Graphic Design</h6><h6 class="font-weight-bold">85%</h6></div>
+                                <div class="progress"><div class="progress-bar bg-dark" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <h1 class="display-5 mb-5">Professional Timeline</h1>
-                    <div class="timeline">
-                        <div class="mb-4 border-start border-3 border-primary ps-3">
-                            <h5 class="mb-1 text-primary">Storekeeper (Workshop)</h5>
-                            <h6>Quantum Foundation | 2022 - Present</h6>
-                            <p class="small text-muted">Managing high-volume inventory, conducting audits, and ensuring streamlined dispatch using FIFO principles.</p>
+                    <ul class="nav nav-pills rounded border border-2 border-primary mb-5">
+                        <li class="nav-item w-50"><button class="nav-link w-100 py-3 fs-5 active" data-bs-toggle="pill" href="#tab-1">Experience</button></li>
+                        <li class="nav-item w-50"><button class="nav-link w-100 py-3 fs-5" data-bs-toggle="pill" href="#tab-2">Education</button></li>
+                    </ul>
+                    <div class="tab-content">
+                        <div id="tab-1" class="tab-pane fade show p-0 active">
+                            <div class="row gy-5 gx-4">
+                                <div class="col-sm-6">
+                                    <h5>Storekeeper (Workshop)</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">2022 - Present</p>
+                                    <h6 class="mb-0">Quantum Foundation</h6>
+                                </div>
+                                <div class="col-sm-6">
+                                    <h5>Assistant Trainer</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">2019 - Present</p>
+                                    <h6 class="mb-0">Quantum Foundation</h6>
+                                </div>
+                                <div class="col-sm-6">
+                                    <h5>ICT Trainee</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">2018 - 2019</p>
+                                    <h6 class="mb-0">ICT Skill Dev, Dhaka</h6>
+                                </div>
+                            </div>
                         </div>
-                        <div class="mb-4 border-start border-3 border-primary ps-3">
-                            <h5 class="mb-1 text-primary">Assistant Trainer</h5>
-                            <h6>Quantum Foundation | 2019 - Present</h6>
-                            <p class="small text-muted">Mentoring athletes, organizing national competitions, and managing team mental health and physical drills.</p>
+                        <div id="tab-2" class="tab-pane fade show p-0">
+                            <div class="row gy-5 gx-4">
+                                <div class="col-sm-6">
+                                    <h5>BA Honors (English)</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">2024</p>
+                                    <h6 class="mb-0">National University, BD</h6>
+                                </div>
+                                <div class="col-sm-6">
+                                    <h5>H.S.C (Commerce)</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">2018</p>
+                                    <h6 class="mb-0">Quantum Cosmo College</h6>
+                                </div>
+                            </div>
                         </div>
-                        <div class="border-start border-3 border-secondary ps-3">
-                            <h5 class="mb-1 text-secondary">ICT Trainee</h5>
-                            <h6>ICT Skill Development, Dhaka | 2018 - 2019</h6>
-                            <p class="small text-muted">Intensive training in hardware assembly, LAN/WAN configuration, and system maintenance.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-light my-5 py-6" id="service">
+        <div class="container">
+            <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-6">
+                    <h1 class="display-5 mb-0">My Services</h1>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
+                        <div class="bg-icon flex-shrink-0 mb-3"><i class="fa fa-laptop-code fa-2x text-dark"></i></div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3">ICT Support</h4>
+                            <span>WAN/LAN setup, BIOS/UEFI configuration, and hardware maintenance.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
+                        <div class="bg-icon flex-shrink-0 mb-3"><i class="fa fa-boxes fa-2x text-dark"></i></div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3">Inventory Management</h4>
+                            <span>Accurate auditing and organizing storage using strict FIFO principles.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
+                        <div class="bg-icon flex-shrink-0 mb-3"><i class="fa fa-file-excel fa-2x text-dark"></i></div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3">VBA Automation</h4>
+                            <span>Automating complex reports and data entry workflows using Advanced Excel.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
+                        <div class="bg-icon flex-shrink-0 mb-3"><i class="fa fa-pen-nib fa-2x text-dark"></i></div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3">Graphic Design</h4>
+                            <span>Creative branding, infographics, and professional social media content.</span>
                         </div>
                     </div>
                 </div>
@@ -152,74 +237,105 @@
     </div>
     <div class="container-xxl py-6" id="project">
         <div class="container">
-            <h1 class="display-5 text-center mb-5 wow fadeInUp">Featured Projects</h1>
-            <div class="row g-4">
-                <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="card h-100 border-0 shadow-sm">
-                        <div class="card-body text-center">
-                            <div class="bg-primary text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
-                                <i class="fa fa-database fa-2x"></i>
-                            </div>
-                            <h4>VBA Inventory System</h4>
-                            <p>Automated reporting system for workshop stock management, reducing manual entry time by 40%.</p>
+            <div class="row g-5 mb-5 align-items-center wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-6">
+                    <h1 class="display-5 mb-0">Featured Projects</h1>
+                </div>
+                <div class="col-lg-6 text-lg-end">
+                    <ul class="list-inline mx-n3 mb-0" id="portfolio-flters">
+                        <li class="mx-3 active" data-filter="*">All</li>
+                        <li class="mx-3" data-filter=".first">ICT & Network</li>
+                        <li class="mx-3" data-filter=".second">Automation</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row g-4 portfolio-container wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-4 col-md-6 portfolio-item first">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/project-1.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-1.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="card h-100 border-0 shadow-sm">
-                        <div class="card-body text-center">
-                            <div class="bg-warning text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
-                                <i class="fa fa-paint-brush fa-2x"></i>
-                            </div>
-                            <h4>Institutional Branding</h4>
-                            <p>Created social media graphics and video content for Quantum Foundation sports events.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="card h-100 border-0 shadow-sm">
-                        <div class="card-body text-center">
-                            <div class="bg-dark text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
-                                <i class="fa fa-network-wired fa-2x"></i>
-                            </div>
-                            <h4>Network Architecture</h4>
-                            <p>Designed and deployed a WAN/LAN configuration for regional office support.</p>
+                <div class="col-lg-4 col-md-6 portfolio-item second">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/project-2.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-2.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container-xxl py-6" id="contact">
-        <div class="container text-center">
-            <h1 class="display-5 mb-5">Get In Touch</h1>
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="row g-4 text-center">
-                        <div class="col-md-4">
-                            <i class="fa fa-map-marker-alt fa-2x text-primary mb-2"></i>
-                            <h5>Location</h5>
-                            <p>Quantumom, Lama, Bandarban</p>
+    <div class="container-xxl py-6" id="testimonial">
+        <div class="container">
+            <h1 class="display-5 text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">Mentorship & Feedback</h1>
+            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+                <div class="testimonial-item bg-light rounded my-4">
+                    <p class="fs-5"><i class="fa fa-quote-left fa-2x text-primary me-3"></i>Parvez brings a rare level of dedication to the training field, balancing physical drills with the mental health of our players.</p>
+                    <div class="d-flex align-items-center">
+                        <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-1.jpg" style="width: 60px; height: 60px;">
+                        <div class="ps-4">
+                            <h5 class="mb-1">A.H.M Shajedur Rahman</h5>
+                            <span>Organizer, Quantum Foundation</span>
                         </div>
-                        <div class="col-md-4">
-                            <i class="fa fa-phone-alt fa-2x text-primary mb-2"></i>
-                            <h5>Phone</h5>
-                            <p>+880 1647418990</p>
-                        </div>
-                        <div class="col-md-4">
-                            <i class="fa fa-envelope fa-2x text-primary mb-2"></i>
-                            <h5>Email</h5>
-                            <p>parvej@qmail.com.bd</p>
+                    </div>
+                </div>
+                <div class="testimonial-item bg-light rounded my-4">
+                    <p class="fs-5"><i class="fa fa-quote-left fa-2x text-primary me-3"></i>His ability to manage high-volume store inventory with FIFO accuracy is essential to our workshop's success.</p>
+                    <div class="d-flex align-items-center">
+                        <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-2.jpg" style="width: 60px; height: 60px;">
+                        <div class="ps-4">
+                            <h5 class="mb-1">Workshop Lead</h5>
+                            <span>Quantum Foundation</span>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
-    <div class="container-fluid bg-dark text-white py-4 text-center">
-        <p class="mb-0">© Md Parvez | Honesty is my Goal</p>
+    <div class="container-xxl pb-5" id="contact">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-5 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <p class="mb-2">Address:</p>
+                    <h3 class="fw-bold">Quantumom, Lama, Bandarban.</h3>
+                    <hr class="w-100">
+                    <p class="mb-2">Call me:</p>
+                    <h3 class="fw-bold">+880 1647418990</h3>
+                    <hr class="w-100">
+                    <p class="mb-2">Mail me:</p>
+                    <h3 class="fw-bold">parvej@qmail.com.bd</h3>
+                </div>
+                <div class="col-lg-7 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <form>
+                        <div class="row g-3">
+                            <div class="col-md-6"><div class="form-floating"><input type="text" class="form-control" id="name" placeholder="Name"><label for="name">Your Name</label></div></div>
+                            <div class="col-md-6"><div class="form-floating"><input type="email" class="form-control" id="email" placeholder="Email"><label for="email">Your Email</label></div></div>
+                            <div class="col-12"><div class="form-floating"><input type="text" class="form-control" id="subject" placeholder="Subject"><label for="subject">Subject</label></div></div>
+                            <div class="col-12"><div class="form-floating"><textarea class="form-control" placeholder="Message" id="message" style="height: 100px"></textarea><label for="message">Message</label></div></div>
+                            <div class="col-12"><button class="btn btn-primary py-3 px-5" type="submit">Send Message</button></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
+    <div class="container-fluid bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; <a class="border-bottom" href="#">Md Parvez Portfolio</a>, All Right Reserved.
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    Honesty & Positivism
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
@@ -227,6 +343,11 @@
     <script src="lib/easing/easing.min.js"></script>
     <script src="lib/waypoints/waypoints.min.js"></script>
     <script src="lib/typed/typed.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
     <script src="js/main.js"></script>
 </body>
 </html>
